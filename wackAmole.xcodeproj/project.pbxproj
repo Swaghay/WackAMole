@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		378B635B250FF09400461C38 /* wackAmole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wackAmole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378B635B250FF09400461C38 /* Wack a Mole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wack a Mole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B635E250FF09400461C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378B6360250FF09400461C38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		378B6362250FF09400461C38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		378B635C250FF09400461C38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				378B635B250FF09400461C38 /* wackAmole.app */,
+				378B635B250FF09400461C38 /* Wack a Mole.app */,
 				378B6371250FF09800461C38 /* wackAmoleTests.xctest */,
 				378B637C250FF09800461C38 /* wackAmoleUITests.xctest */,
 			);
@@ -153,7 +153,7 @@
 			);
 			name = wackAmole;
 			productName = wackAmole;
-			productReference = 378B635B250FF09400461C38 /* wackAmole.app */;
+			productReference = 378B635B250FF09400461C38 /* Wack a Mole.app */;
 			productType = "com.apple.product-type.application";
 		};
 		378B6370250FF09800461C38 /* wackAmoleTests */ = {
@@ -436,14 +436,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"wackAmole/Preview Content\"";
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = wackAmole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abhaySwag.wackAmole;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ephs2020.Wack-a-Mole";
+				PRODUCT_NAME = "Wack a Mole";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,14 +456,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"wackAmole/Preview Content\"";
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = wackAmole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abhaySwag.wackAmole;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ephs2020.Wack-a-Mole";
+				PRODUCT_NAME = "Wack a Mole";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
